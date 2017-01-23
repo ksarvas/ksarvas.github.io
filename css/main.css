@@ -1,0 +1,346 @@
+/* ---- GENERAL ----- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	background-color: #fff;
+	color: #fff;
+}
+
+btn,
+a,
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+p {
+
+}
+
+a,
+btn {
+	cursor: pointer;
+	color: #fff;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+}
+
+hr {
+	border-style: solid;
+	border-color: #a5b5c7;
+}
+
+footer,
+section,
+aside {
+	text-align: center;
+}
+
+.btn {
+	margin: 20px 10px 0 10px;
+	display: inline-block;
+	padding: 11px 50px;
+	border: 2px solid #00BCD4;
+	border-radius: 3px;
+	/* color: #00CCCC; */
+	background-color: #00BCD4;
+}
+
+.btn-ghost {
+	margin: 20px 10px;
+	display: inline-block;
+	padding: 11px 90px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
+
+
+
+/* ---- HEADER ----- */
+
+header {
+	/* display: block; */
+	/* ---- STICKY HEADER ---- */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* ---- BASE HEADER ---- */
+    height: 50px;
+	/* padding: 16px 15px; */
+	background-color: #37404A;
+	z-index: 1000;
+	/*
+	margin: 0 auto;
+	max-width: 900px;
+	*/
+}
+
+.header-title {
+	height: inherit;
+	padding: 11px 15px;
+	float: left;
+}
+
+nav {
+	height: inherit;
+	float: right;
+	background-color: #00BCD4;
+}
+
+.mobile-nav-icon {
+    cursor: pointer;
+}
+
+.mobile-nav-icon i {
+	display: block;
+	padding: 6px 15px;
+    font-size: 200%;
+    color: #fff;
+}
+
+/* ---- ASIDE ----- */
+
+aside {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 400px;
+	background-color: #37404A;
+}
+
+aside img {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	width: 150px;
+    height: 150px;
+    border-radius: 100%;
+	/* border: 2px solid #a5b5c7; */
+	/* border: 2px solid #fff; */
+	border: 3px solid #a5b5c7;
+}
+
+.home {
+	margin: 0;
+}
+
+aside a {
+	display: block;
+	margin-top: 20px;
+}
+
+aside hr {
+	text-align: center;
+	width: 220px;
+	/* margin: 0 auto 20px auto; */
+	margin: 0 auto 6px auto;
+}
+
+aside h1 {
+	font-size: 2.1em;
+}
+
+aside h2 {
+
+}
+
+.section-hr {
+	width: 100%;
+	margin: 6px 0 20px 0;
+}
+
+.section-underline {
+	width: 192px;
+}
+
+i {
+	color: #00BCD4;
+}
+
+aside ul {
+	list-style: none;
+	font-size: 1.5em;
+}
+
+
+aside li {
+	display: block;
+	margin: 0 20px;
+}
+
+.aside-nav a {
+	border: 2px solid #00BCD4;
+	border-radius: 3px;
+	padding: 10px;
+	color: #00BCD4;
+}
+
+.aside-nav a:hover {
+	background-color: #00BCD4;
+	color: #fff;
+}
+
+.aside-nav-active a {
+	background-color: #00BCD4;
+	color: #fff;
+}
+
+
+
+
+/*
+.btn-active {
+	background-color: #00BCD4;
+	color: #fff; 
+}
+*/
+
+
+/* ---- FOOTER ---- */
+
+footer ul {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	font-size: 3em;
+	list-style: none;
+}
+
+footer li {
+	margin: 0 20px;
+	display: inline-block;
+}
+
+aside i {
+
+	color: #a5b5c7;
+}
+
+aside i:hover {
+	color: #fff;
+}
+
+footer h4 {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	padding-bottom: 6px;
+	font-weight: 300;
+	color: #a5b5c7;
+}
+
+
+/* ---- FEATURED WORK ----- */
+
+.section-work {
+	margin: 50px auto 0 auto;
+	max-width: 900px;
+	padding: 20px 20px 0 20px;
+	/*
+	border-left: 2px solid #37404A;
+	border-right: 2px solid #37404A;
+	*/
+}
+
+.section-work li {
+	display: block;
+	margin: 0 auto;
+	max-width: 900px;
+
+	margin-bottom: 28px;
+}
+
+.section-work li img {
+	display: block;
+}
+
+/* ---- FEATURED WORK FOOTER ---- */
+
+.work-footer {
+	position: relative;
+	width: 100%;
+    height: 110px;
+	background-color: #37404A;
+}
+
+.work-footer ul {
+	bottom: 37px;
+}
+
+.work-footer h4 {
+	bottom: 5px;
+}
+
+
+.work-footer i {
+	color: #a5b5c7;
+}
+
+.work-footer i:hover {
+	color: #fff;
+}
+
+/* ---- ABOUT ME ----- */
+
+
+/* ---- MEDIA QUERIES ---- */
+
+@media screen and (min-width: 600px) {
+
+	
+}
+
+@media screen and (min-width: 700px) {    
+
+}
+
+@media screen and (min-width: 900px) {
+	.header {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	header {
+		display: none;
+	}
+	
+	.work-footer {
+		display: none;
+	}
+	
+	aside {
+		display: block;
+	}
+	
+	.section-work {
+		display: block;
+		max-width: none;
+		margin: 0 auto 0 400px;
+	}
+}
+
