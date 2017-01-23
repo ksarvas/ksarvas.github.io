@@ -150,6 +150,11 @@ main hr {
 
 #character {
   background-image: url("../img/GalleryThumb_Character.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 700px;
+  height: 200px;
+  margin: 20px auto 0 auto;
 }
 
 #props {
