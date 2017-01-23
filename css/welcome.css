@@ -141,7 +141,6 @@ main hr {
 }
 
 .section-work article {
-	background-image: url("../img/GalleryThumb_003.jpg");
     background-size: cover;
     background-position: center;
 	max-width: 700px;
