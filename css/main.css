@@ -98,13 +98,13 @@ header {
 }
 
 .header-title {
-	height: inherit;
+	height: 50px;
 	padding: 11px 15px;
 	float: left;
 }
 
 nav {
-	height: inherit;
+    height: 50px;
 	float: right;
 	background-color: #00BCD4;
 }
@@ -115,7 +115,7 @@ nav {
 
 .mobile-nav-icon i {
 	display: block;
-	padding: 6px 15px;
+	padding: 4px 15px;
     font-size: 200%;
     color: #fff;
 }
