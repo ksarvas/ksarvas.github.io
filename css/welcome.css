@@ -149,6 +149,18 @@ main hr {
 	margin: 20px auto 0 auto;
 }
 
+#character {
+  background-image: url("../img/GalleryThumb_Character.jpg");
+}
+
+#props {
+  background-image: url("../img/GalleryThumb_Props.jpg");
+}
+
+#concept {
+  background-image: url("../img/GalleryThumb_Concept.jpg");
+}
+
 .work-text {
 	padding-top: 80px;
 	height: 200px;
