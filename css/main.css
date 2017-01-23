@@ -114,8 +114,8 @@ nav {
 }
 
 .mobile-nav-icon i {
-	display: block;
-	padding: 5px 15px 3px 15px;
+    display: block;
+    padding: 6px 15px 2px 15px;
     font-size: 200%;
     color: #fff;
 }
