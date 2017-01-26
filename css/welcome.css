@@ -184,7 +184,8 @@ main hr {
 /* ---- FOOTER ----- */
 
 footer {
-    
+    position: relative;
+    width: 100%;
 	min-height: 12vh;
 	padding: 12px;
 	background-color: #37404A;
@@ -246,4 +247,31 @@ footer h4 {
 @media screen and (min-width: 950px) {
 
 
+}
+
+/* PORTRAIT TABLET */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+      .section-work {
+          min-height: 80vh;
+      }
+}
+
+/* PORTRAIT AND LANDSCAPE TABLET */
+@media only screen 
+  and (device-width: 1366px) 
+  and (orientation: landscape) {
+      .section-work {
+          min-height: 80vh;
+      }
+}
+
+/* 4K SUPPORT */
+@media only screen 
+  and (min-device-width: 2560px) {
+      .section-work {
+          min-height: 80vh;
+      }
 }
