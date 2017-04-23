@@ -89,6 +89,7 @@ header {
 }
 
 .header-title i {
+    height: 50px;
     float: left;
     font-size: 2.1em;
     padding: 3px 10px;
@@ -356,6 +357,31 @@ footer h4 {
 
 
 /* ---- MEDIA QUERIES ---- */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .mobile-nav-icon i {
+          padding-top: 5px;
+      }
+      .header-title h1 {
+          padding-top: 11px;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+      .mobile-nav-icon i {
+          padding-top: 5px;
+      }
+      .header-title h1 {
+          padding-top: 11px;
+      }
+      
+}
 
 @media screen and (max-width: 320px) {
     .header-title {
