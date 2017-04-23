@@ -18,12 +18,12 @@ $(document).ready(function() {
     });
 	
 	/* ---- GALLERY HIGHLIGHT ---- */
-    $(".work-text", this).mouseenter(function() {
-		$(this).children(".section-work article h3").css({"background-color": "#00BCD4", "border": "2px solid #00BCD4"});
+    $(".gallery-text", this).mouseenter(function() {
+		$(this).children(".inactive").css({"background-color": "#00BCD4", "border": "2px solid #00BCD4"});
 	});
 	
-	$(".work-text").mouseleave(function() {
-		$(".section-work article h3").css({"background-color": "transparent", "border": "2px solid #fff"});
+	$(".gallery-text").mouseleave(function() {
+		$(".inactive").css({"background-color": "transparent", "border": "2px solid #fff"});
 	});
     
     /* ---- MOBILE NAVIGATION ---- */
