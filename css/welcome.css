@@ -87,8 +87,7 @@ section {
 	font-size: 1.4em;
 }
 
-.btn-ghost,
-.btn-ghost:active {
+.btn-ghost {
 	margin: 5px 10px;
 	display: inline-block;
 	padding: 11px 37px;
@@ -100,6 +99,11 @@ section {
 .btn-ghost:hover {
 	background-color: #00BCD4;
 	border: 2px solid #00BCD4;
+}
+
+.btn-ghost:active {
+    background-color: none;
+	border: 2px solid #fff;
 }
 
 /* ---- FEATURED WORK ----- */
@@ -188,6 +192,10 @@ footer li i {
 
 footer li i:hover {
 	color: #fff;
+}
+
+footer li i:active {
+    color: #a5b5c7;
 }
 
 footer h4 {
