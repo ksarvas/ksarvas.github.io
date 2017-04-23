@@ -70,7 +70,6 @@ section {
     background-size: cover;
     background-position: center;
 	height: 100vh;
-	/* min-height: 300px; */
 }
 
 .welcome-text {
@@ -84,30 +83,16 @@ section {
 }
 
 .welcome a {
-	font-size: 1.25em;
-}
-
-.welcome h3,
-.welcome a {
-	font-size: 1.25em;
-}
-
-.btn {
-	margin: 20px 10px 0 10px;
-	display: inline-block;
-	padding: 11px 50px;
-	border: 2px solid #00BCD4;
-	border-radius: 3px;
-	/* color: #00CCCC; */
-	background-color: #00BCD4;
+    letter-spacing: 0.03em;
+	font-size: 1.4em;
 }
 
 .btn-ghost {
-	margin: 6px 10px;
+	margin: 5px 10px;
 	display: inline-block;
-	padding: 11px 24px;
+	padding: 11px 37px;
 	border: 2px solid #fff;
-	border-radius: 3px;
+    border-radius: 3px;
 	background-color: none;
 }
 
@@ -123,15 +108,10 @@ main {
 
 }
 
-.section-work {
-	min-height: 70vh;
+.section-gallery {
+	min-height: 84vh;
     margin-bottom: 30px;
-	padding: 0 20px;
-}
-
-main h2 {
-	padding-top: 20px;
-
+	padding: 5px 20px 0 20px;
 }
 
 main hr {
@@ -140,7 +120,7 @@ main hr {
 	margin: 0 auto 20px auto;
 }
 
-.section-work article {
+.section-gallery article {
     background-size: cover;
     background-position: center;
     max-width: 700px;
@@ -160,12 +140,12 @@ main hr {
   background-image: url("../img/GalleryThumb_Concept.jpg");
 }
 
-.work-text {
+.gallery-text {
 	padding-top: 80px;
 	height: 200px;
 }
 
-.section-work article h3 {
+.section-gallery article h3 {
 	width: 300px;
 	margin: 0 auto;
 	padding: 11px 5px;
@@ -186,13 +166,13 @@ main hr {
 footer {
     position: relative;
     width: 100%;
-	min-height: 12vh;
+	min-height: 13vh;
 	padding: 12px;
 	background-color: #37404A;
 }
 
 footer ul {
-	font-size: 3em;
+	font-size: 2.5em;
 	list-style: none;
 }
 
@@ -219,16 +199,12 @@ footer h4 {
 /* ---- MEDIA QUERIES ---- */
 
 @media screen and (max-width: 360px) {
-  .section-work article h3 {
+  .section-gallery article h3 {
 	width: 170px;
   }
   
   footer h4 {
 	font-size: 0.8em;
-  }
-  
-  footer ul {
-	font-size: 2.5em;
   }
   
   footer li {
@@ -255,7 +231,7 @@ footer h4 {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) {
-      .section-work {
+      .section-gallery {
           min-height: 80vh;
       }
 }
@@ -264,7 +240,7 @@ footer h4 {
 @media only screen 
   and (device-width: 1366px) 
   and (orientation: landscape) {
-      .section-work {
+      .section-gallery {
           min-height: 80vh;
       }
 }
@@ -272,7 +248,7 @@ footer h4 {
 /* 4K SUPPORT */
 @media only screen 
   and (min-device-width: 2560px) {
-      .section-work {
+      .section-gallery {
           min-height: 80vh;
       }
 }
