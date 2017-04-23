@@ -54,7 +54,6 @@ aside {
 	padding: 11px 50px;
 	border: 2px solid #00BCD4;
 	border-radius: 3px;
-	/* color: #00CCCC; */
 	background-color: #00BCD4;
 }
 
@@ -65,8 +64,6 @@ aside {
 	border: 2px solid #fff;
 	border-radius: 3px;
 }
-
-
 
 /* ---- HEADER ----- */
 
@@ -242,7 +239,6 @@ aside li {
 .gallery-text {
 	padding-top: 55px;
 	height: 160px;
-    
 }
 
 .inactive {
@@ -251,7 +247,6 @@ aside li {
 	padding: 11px 5px;
 	border: 2px solid #fff;
 	border-radius: 3px;
-	/* background-color: #00BCD4; */
 	color: #fff;
 }
 
@@ -297,10 +292,6 @@ aside i:hover {
 	color: #fff;
 }
 
-aside i:active {
-    color: #a5b5c7;
-}
-
 footer h4 {
 	position: absolute;
 	bottom: 15px;
@@ -309,7 +300,6 @@ footer h4 {
 	font-weight: 300;
 	color: #a5b5c7;
 }
-
 
 /* ---- FEATURED WORK ----- */
 
@@ -355,13 +345,6 @@ footer h4 {
 	color: #fff;
 }
 
-.work-footer i:active {
-    color: #a5b5c7;
-}
-
-/* ---- ABOUT ME ----- */
-
-
 /* ---- MEDIA QUERIES ---- */
 
 @media screen and (max-width: 320px) {
@@ -380,15 +363,14 @@ footer h4 {
     
 }
 
-
 @media screen and (max-width: 360px) {
-  footer h4 {
-	font-size: 0.8em;
-  }
-  
-  footer li {
-	margin: 0 14px;
-  }
+    footer h4 {
+        font-size: 0.8em;
+    }
+    
+    footer li {
+        margin: 0 14px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -422,6 +404,5 @@ footer h4 {
       .gallery-text {
 	       padding-top: 35px;
       }
-
 }
 
