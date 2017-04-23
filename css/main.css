@@ -120,6 +120,7 @@ header {
 
 .mobile-nav-icon i {
     display: block;
+    height: 50px;
     padding: 4px 15px;
     font-size: 200%;
     color: #fff;
@@ -290,7 +291,8 @@ footer li {
 
 aside i,
 aside i:link,
-aside i:visited {
+aside i:visited
+aside i:active {
 	color: #a5b5c7;
 }
 
@@ -362,9 +364,6 @@ footer h4 {
   and (min-device-width: 320px) 
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-      .mobile-nav-icon i {
-          padding-top: 5px;
-      }
       .header-title h1 {
           padding-top: 11px;
       }
@@ -374,9 +373,6 @@ footer h4 {
   and (min-device-width: 414px) 
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-      .mobile-nav-icon i {
-          padding-top: 5px;
-      }
       .header-title h1 {
           padding-top: 11px;
       }

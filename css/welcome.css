@@ -87,7 +87,8 @@ section {
 	font-size: 1.4em;
 }
 
-.btn-ghost {
+.btn-ghost,
+.btn-ghost:active {
 	margin: 5px 10px;
 	display: inline-block;
 	padding: 11px 37px;
