@@ -8,7 +8,7 @@
 
 body {
 	font-size: 16px;
-	font-family: Roboto, sans-serif;
+	font-family: "Bebas Neue", Roboto, sans-serif;
 	background-color: #fff;
 	color: #fff;
 }
@@ -17,7 +17,8 @@ a,
 h1,
 h2,
 h3 {
-    font-weight: 300;
+    font-weight: 600;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
 }
 
@@ -78,15 +79,56 @@ section {
 	font-size: 2.1em;
 }
 
+<<<<<<< HEAD
+.welcome hr {
+    width: 239px;
+	border-color: #fff;
+    opacity: 0.5;
+	margin: 2px auto 4px auto;
+}
+
+.welcome h3 {
+    font-size: 1.25em;
+    margin: 8px 0 4px 0;
+}
+
+.header-icon {
+    margin-top: 12px;
+    padding: 0 11px;
+    height: 26px;
+}
+
+.welcome-text-name {
+    height: 56px;
+    padding: 0 11px;
+    margin: 2px 0;
+}
+
+.welcome-text-role {
+    margin: 4px 0;
+    height: 37px;
+    padding: 0 11px;
+}
+
+.welcome a {
+    letter-spacing: 0.15em;
+=======
 .welcome a {
     letter-spacing: 0.03em;
+>>>>>>> origin/Mobile-Nav
 	font-size: 1.4em;
 }
 
 .btn-ghost {
+<<<<<<< HEAD
+	margin: 10px 10px;
+	display: inline-block;
+	padding: 11px 67px;
+=======
 	margin: 5px 10px;
 	display: inline-block;
 	padding: 11px 37px;
+>>>>>>> origin/Mobile-Nav
 	border: 2px solid #fff;
     border-radius: 3px;
 	background-color: none;

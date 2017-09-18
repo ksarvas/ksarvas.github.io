@@ -8,7 +8,7 @@
 
 body {
 	font-size: 16px;
-	font-family: Roboto, sans-serif;
+	font-family: "Bebas Neue", Roboto, sans-serif;
 	background-color: #fff;
 	color: #fff;
 }
@@ -79,6 +79,9 @@ header {
 	z-index: 1000;
 }
 
+<<<<<<< HEAD
+.header {
+=======
 .header-title {
     width: 225px;
 	height: 50px;
@@ -148,11 +151,23 @@ header {
     height: 50px;
     padding: 12px 16px;
 }
+>>>>>>> origin/Mobile-Nav
 
-.main-nav li a:hover {
-    background-color: #00BCD4;
 }
 
+<<<<<<< HEAD
+.header-title {
+
+}
+
+.header-icon {
+    margin-top: 12px;
+    padding: 0 4px;
+    height: 26px;
+}
+
+/* ---- FOOTER ---- */
+=======
 .main-nav la a:link,
 .main-nav li a:visited {
     display: inline-block;
@@ -270,6 +285,7 @@ aside li {
     height: 116px;
     background-color: #37404A;
 }
+>>>>>>> origin/Mobile-Nav
 
 footer ul {
 	position: absolute;
@@ -282,14 +298,6 @@ footer ul {
 footer li {
 	margin: 0 20px;
 	display: inline-block;
-}
-
-aside i {
-	color: #a5b5c7;
-}
-
-aside i:hover {
-	color: #fff;
 }
 
 footer h4 {
@@ -305,14 +313,18 @@ footer h4 {
 
 .section-work {
 	margin: 50px auto 0 auto;
-	max-width: 900px;
+	/*max-width: 900px;*/
 	padding: 20px 20px 0 20px;
 }
 
 .section-work li {
 	display: block;
 	margin: 0 auto;
+<<<<<<< HEAD
+	/*max-width: 900px;*/
+=======
 	max-width: 900px;
+>>>>>>> origin/Mobile-Nav
 	margin-bottom: 28px;
 }
 
@@ -334,6 +346,8 @@ footer h4 {
 }
 
 .work-footer h4 {
+    font-weight: 600;
+    letter-spacing: 0.06em;
 	bottom: 5px;
 }
 
@@ -349,6 +363,31 @@ footer h4 {
 
 @media screen and (max-width: 320px) {
     .header-title {
+<<<<<<< HEAD
+    }
+    
+    /*
+    .header-title i {
+        display: none;
+    }
+    */
+    
+}
+
+@media screen and (max-width: 360px) {
+    footer h4 {
+        font-size: 0.8em;
+    }
+    
+    footer li {
+        margin: 0 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header-icon {
+        display: block;
+=======
         width: auto;
     }
     
@@ -370,11 +409,13 @@ footer h4 {
     
     footer li {
         margin: 0 14px;
+>>>>>>> origin/Mobile-Nav
     }
 }
 
 @media screen and (min-width: 1200px) {
-	header {
+	/*
+    header {
 		display: none;
 	}
 	
@@ -385,12 +426,31 @@ footer h4 {
 	aside {
 		display: block;
 	}
+    
 	
 	.section-work {
 		display: block;
 		max-width: none;
 		margin: 0 auto 0 400px;
 	}
+    */
+    
+    .section-work {
+        padding: 28px 7% 0 7%;
+	}
+}
+
+/* ----------- L Laptop ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1440px) {
+      .section-gallery article {
+          max-height: 116px;
+      }
+      
+      .gallery-text {
+	       padding-top: 35px;
+      }
 }
 
 /* ----------- L Laptop ----------- */
