@@ -79,7 +79,6 @@ section {
 	font-size: 2.1em;
 }
 
-<<<<<<< HEAD
 .welcome hr {
     width: 239px;
 	border-color: #fff;
@@ -112,23 +111,13 @@ section {
 
 .welcome a {
     letter-spacing: 0.15em;
-=======
-.welcome a {
-    letter-spacing: 0.03em;
->>>>>>> origin/Mobile-Nav
 	font-size: 1.4em;
 }
 
 .btn-ghost {
-<<<<<<< HEAD
 	margin: 10px 10px;
 	display: inline-block;
 	padding: 11px 67px;
-=======
-	margin: 5px 10px;
-	display: inline-block;
-	padding: 11px 37px;
->>>>>>> origin/Mobile-Nav
 	border: 2px solid #fff;
     border-radius: 3px;
 	background-color: none;
