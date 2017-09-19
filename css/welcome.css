@@ -216,6 +216,12 @@ footer h4 {
 
 /* ---- MEDIA QUERIES ---- */
 
+@media screen and (max-width: 425px) {
+    .welcome-text {
+        top: 38vh;
+    }
+}
+
 @media screen and (max-width: 360px) {
   .section-gallery article h3 {
 	width: 170px;
