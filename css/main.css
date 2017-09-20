@@ -272,6 +272,10 @@ footer h4 {
     .section-work {
         padding: 28px 9% 0 9%;
 	}
+    
+    .header {
+        padding: 0 9%;
+    }
 }
 
 
