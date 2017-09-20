@@ -191,13 +191,12 @@ footer {
 
 footer h4 {
 	position: absolute;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    bottom: 8px;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	bottom: 8px;
 	width: 100%;
 	padding-bottom: 6px;
-	color: #fff;
-    opacity: 0.5;
+	color: #a5b5c7;
 }
 
 /* ---- FEATURED WORK ----- */
