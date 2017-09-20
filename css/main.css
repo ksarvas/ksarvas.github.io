@@ -10,7 +10,6 @@ body {
 	font-size: 16px;
 	font-family: "Bebas Neue", Roboto, sans-serif;
 	background-color: #fff;
-	color: #fff;
 }
 
 btn,
@@ -143,7 +142,7 @@ header {
     display: none;
     float: left;
     width: 100%;
-    background-color: #272f38;
+    background-color: #36383e;
     box-shadow: 0 2px 2px rgba(3, 15, 29, 0.5);
 }
 
@@ -197,7 +196,8 @@ footer h4 {
     bottom: 8px;
 	width: 100%;
 	padding-bottom: 6px;
-	color: #a5b5c7;
+	color: #fff;
+    opacity: 0.5;
 }
 
 /* ---- FEATURED WORK ----- */
