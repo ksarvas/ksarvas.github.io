@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Kyle Sarvas | Portfolio</title>
-        <meta name="description" content="Kyle Sarvas's Online Portfolio">
+        <title>Kyle Sarvas | Environment Artist</title>
+        <meta name="description" content="Kyle Sarvas's Online Portfolio; Environment Art Gallery">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/welcome.css">
+        <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/ionicons.min.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
     <body>
-		<header class="welcome">
-			<div class="welcome-text">
-				<img class="welcome-text-name" src="../img/logo-min.svg">
-                <hr>
-                <img class="welcome-text-role" src="../img/logo-role.svg">
-				<a class="btn-ghost" href="/environment" >View Work</a>
-			</div>
-		</header>
+        <header>
+			<section class="header">
+				<a class="header-title" href="">
+                    <img class="header-icon" src="img/logo-max.svg">
+				</a>
+                <div class="header-nav-icon">
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
+                </div>
+                <ul class="desktop-nav">
+                    <li><a class="active" href="">Portfolio</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </section>
+            <nav>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section-work" id="work">
+			<ul>
+				<li><img src="../img/KyleSarvas_MoonGate_FinalC.jpg" alt="Kyle Sarvas - Abandoned Shrine Gate"></li>
+				<li><img src="../img/KyleSarvas_StoneLantern_Large_FinalC.jpg" alt="Kyle Sarvas - Stone Lantern Large"></li>
+				<li><img src="../img/KyleSarvas_StoneLantern_Small_Final.jpg" alt="Kyle Sarvas - Stone Lantern Small"></li>
+				<li><img src="../img/KyleSarvas_Rocks_Final.jpg" alt="Kyle Sarvas - Rocks"></li>
+				<li><img src="../img/KyleSarvas_FloorTiles_Final.jpg" alt="Kyle Sarvas - Floor Tiles"></li>
+				<li><img src="../img/KyleSarvas_Wall_Final.jpg" alt="Kyle Sarvas - Wall"></li>
+			</ul>
+        </section>
+		<footer class="work-footer">
+			<h4>© 2017 Kyle Sarvas - All rights reserved</h4>
+		</footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script async src="js/script.js"></script>
+        
     </body>
 </html>
