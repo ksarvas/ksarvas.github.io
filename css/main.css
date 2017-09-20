@@ -252,7 +252,7 @@ footer h4 {
     }
     
     .header-icon {
-        margin-left: 115px;   
+        margin-left: 135px;   
     }
     
     .desktop-nav {
@@ -267,6 +267,7 @@ footer h4 {
         padding: 28px 7% 0 7%;
 	}
 }
+
 
 /* ----------- L Laptop ----------- */
 @media screen 
