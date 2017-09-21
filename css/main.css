@@ -272,6 +272,7 @@ footer h4 {
 }
 
 .section-contact li a {
+    padding: 2px 0;
     display: block;
     color: #00BCD4;
     font-weight: 600;
@@ -317,7 +318,9 @@ footer h4 {
     margin-left: 26px;
 }
 
-.list-icons li i {
+.contact-footer {
+    position: fixed;
+    bottom: 0px;
 }
 
 /* ---- FEATURED WORK FOOTER ---- */
@@ -447,9 +450,10 @@ footer h4 {
         padding: 44px 7% 0 7%;
 	}
     
-    .header-title-left {
-
+    .section-contact {
+        margin: 66px auto 0 auto;
     }
+    
 }
 
 @media screen and (min-width: 1400px) {
@@ -477,50 +481,7 @@ footer h4 {
 }
 
 @media screen and (min-width: 1600px) {
-    /*
-    header {
-        height: 76px;
-    }
-    
-    .header-title-left {
-        font-size: 36px;
-        padding: 8px 0;
-        padding-left: 9%;
-    }
-    
-    .title-letter-large {
-        font-size: 46px
-    }
 
-    .title-divider {
-        font-size: 56px;
-    }
-
-    .title-text-darker {
-        font-size: 32px;
-    }
-    
-    .title-letter-medium {
-        font-size: 40px
-    }
-    
-    .desktop-nav {
-        padding: 8px 0;
-        padding-right: 9%;
-    }
-    
-    .desktop-nav li a {
-        font-size: 32px;
-    }
-    */
-    
-    .header-title {
-        
-    }
-    
-    .header-title-left {
-
-    }
     
 }
 
@@ -533,10 +494,7 @@ footer h4 {
 }
 
 @media screen and (min-width: 2000px) {
-    
-    .header-title-left {
 
-    }
     
 }
 
@@ -546,9 +504,7 @@ footer h4 {
         padding: 0 0 0 3em;
     }
     
-    .header-title-left {
 
-    }
 }
 
 
