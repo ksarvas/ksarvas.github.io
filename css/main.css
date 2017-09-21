@@ -318,11 +318,6 @@ footer h4 {
     margin-left: 26px;
 }
 
-.contact-footer {
-    position: fixed;
-    bottom: 0px;
-}
-
 /* ---- FEATURED WORK FOOTER ---- */
 
 
@@ -452,6 +447,11 @@ footer h4 {
     
     .section-contact {
         margin: 66px auto 0 auto;
+    }
+    
+    .contact-footer {
+        position: fixed;
+        bottom: 0px;
     }
     
 }
