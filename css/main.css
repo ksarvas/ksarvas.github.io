@@ -93,8 +93,8 @@ header {
 .header-title-left {
     text-align: left;
     font-weight: 600;
-    font-size: 16px;
-    padding: 13px  0 13px 22px;
+    font-size: 14px;
+    padding: 14px  0 13px 22px;
 }
 
 .title-text-lighter {
@@ -102,12 +102,12 @@ header {
 }
 
 .title-letter-large {
-    font-size: 20px
+    font-size: 18px
 }
 
 .title-divider {
     vertical-align: middle;
-    font-size: 22px;
+    font-size: 20px;
     opacity: 0.5;
     font-weight: 500;
 }
@@ -335,22 +335,45 @@ footer h4 {
     
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 290px) {
     .header-title-left {
-        font-size: 24px;
-        padding: 7px  0 7px 22px;
+        font-size: 16px;
+        padding: 13px  0 13px 22px;
     }
     
     .title-letter-large {
-        font-size: 28px
+        font-size: 20px
     }
 
     .title-divider {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .title-text-darker {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    
+    .title-letter-medium {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .header-title-left {
+        font-size: 22px;
+        padding: 9px  0 9px 22px;
+    }
+    
+    .title-letter-large {
+        font-size: 26px
+    }
+
+    .title-divider {
+        font-size: 28px;
+    }
+
+    .title-text-darker {
+        font-size: 22px;
     }
     
     .title-letter-medium {
@@ -365,13 +388,6 @@ footer h4 {
     }
     */
 }
-
-@media screen and (max-width: 1199px) {
-    .title-text-darker {
-        font-weight: 100;
-    }
-}
-
 
 
 @media screen and (min-width: 1200px) {
@@ -395,11 +411,11 @@ footer h4 {
     }
 
     .title-text-darker {
-        font-size: 24px;
+        font-size: 28px;
     }
     
     .title-letter-medium {
-        font-size: 30px
+        font-size: 32px
     }
     
     .header-nav-icon {
