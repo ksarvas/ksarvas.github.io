@@ -151,9 +151,6 @@ header {
     color: #00BCD4;
 }
 
-.active {
-
-}
 
 .header-nav-icon {
     max-width: 40%;
@@ -367,6 +364,12 @@ footer h4 {
         margin-left: 3.25%;   
     }
     */
+}
+
+@media screen and (max-width: 1199px) {
+    .title-text-darker {
+        font-weight: 100;
+    }
 }
 
 
