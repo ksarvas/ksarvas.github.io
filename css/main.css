@@ -115,7 +115,7 @@ header {
 .title-text-darker {
     vertical-align: middle;
     opacity: 0.5;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -339,9 +339,9 @@ footer h4 {
     
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1199px) {
     .title-text-darker {
-
+        font-weight: 200;
     }
     
 }
