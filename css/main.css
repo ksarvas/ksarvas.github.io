@@ -90,6 +90,42 @@ header {
     width: 100%;
 }
 
+.header-title-left {
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px  0 13px 22px;
+}
+
+.title-text-lighter {
+    vertical-align: middle;
+}
+
+.title-letter-large {
+    font-size: 20px
+}
+
+.title-divider {
+    vertical-align: middle;
+    font-size: 22px;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.title-text-darker {
+    vertical-align: middle;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.title-letter-medium {
+    
+    font-size: 18px
+}
+
+
+
 .header-icon {
     margin-top: 12px;
     padding: 0 6px;
@@ -99,10 +135,11 @@ header {
 .desktop-nav {
     display: none;
     list-style: none;
+    
 }
 
 .desktop-nav li {
-    padding: 13px 2em;
+    padding: 13px 0 13px 2em;
 }
 
 .desktop-nav li a {
@@ -204,7 +241,7 @@ footer h4 {
 
 .section-work {
 	margin: 50px auto 0 auto;
-	padding: 20px 20px 0 20px;
+	padding: 26px 20px 0 20px;
 }
 
 .section-work li {
@@ -217,19 +254,82 @@ footer h4 {
 	display: block;
 }
 
+/* ---- CONTACT ----- */
+
+.section-contact {
+    margin: 50px auto 0 auto;
+	padding: 20px 0;
+    list-style: none;
+    background-color: #2d353e;
+    height: 100vh;
+}
+
+.section-contact ul {
+    padding: 0 10px;
+    width: 250px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.section-contact li {
+    padding: 10px 0;
+}
+
+.section-contact li a {
+    display: block;
+    color: #00BCD4;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-size: 16px;
+}
+
+.section-contact i {
+	color: #00BCD4;
+    margin-right: 10px;
+}
+
+.section-contact i:hover {
+	color: #00BCD4;
+}
+
+.picture {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.welcome-text-name {
+    height: 42px;
+}
+
+.section-contact ul hr {
+    width: 182px;
+    margin: 0 auto;
+}
+
+.welcome-text-role {
+    height: 28px;
+}
+
+.list-icons {
+    text-align: left;
+    padding: 0 10px;
+    width: 250px;
+}
+
+.list-icons li {
+    margin-left: 26px;
+}
+
+.list-icons li i {
+}
+
 /* ---- FEATURED WORK FOOTER ---- */
 
 
 
 /* ---- MEDIA QUERIES ---- */
 
-@media screen and (max-width: 320px) {
-    .header-title {
-        
-    }
-    
-    
-}
 
 @media screen and (max-width: 360px) {
     footer h4 {
@@ -239,42 +339,193 @@ footer h4 {
     
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 360px) {
+    .header-title-left {
+        font-size: 24px;
+        padding: 7px  0 7px 22px;
+    }
     
-    .header-icon {
-        margin-left: 2%;   
+    .title-letter-large {
+        font-size: 28px
+    }
+
+    .title-divider {
+        font-size: 32px;
+    }
+
+    .title-text-darker {
+        font-size: 20px;
+    }
+    
+    .title-letter-medium {
+        font-size: 26px
     }
 }
 
+@media screen and (min-width: 400px) {
+    /*
+    .header-icon {
+        margin-left: 3.25%;   
+    }
+    */
+}
+
 @media screen and (min-width: 1200px) {
+    header {
+        height: 66px;
+    }
+    
+    .header-title-left {
+        font-size: 28px;
+        padding: 14px 0;
+    }
+    
+    .title-letter-large {
+        font-size: 32px
+    }
+
+    .title-divider {
+        font-size: 36px;
+    }
+
+    .title-text-darker {
+        font-size: 24px;
+    }
+    
+    .title-letter-medium {
+        font-size: 30px
+    }
+    
     .header-nav-icon {
         display: none;
     }
     
     .header-icon {
-        margin-left: 130px;   
+        margin-left: 158px;   
     }
     
     .desktop-nav {
+        font-size: 30px;
         display: inline-flex;
     }
     
-    .header {
-        padding: 0 7%;
+    .header-title {
+        padding: 0 0 0 1.75em;
+    }
+    
+    .header-title-left {
+        padding-left: 7%;
+    }
+    
+    .desktop-nav {
+        padding-right: 7%;
     }
     
     .section-work {
-        padding: 28px 7% 0 7%;
+        padding: 44px 7% 0 7%;
 	}
+    
+    .header-title-left {
+
+    }
 }
 
 @media screen and (min-width: 1400px) {
+    
     .section-work {
-        padding: 28px 9% 0 9%;
+        padding: 44px 9% 0 9%;
 	}
     
-    .header {
-        padding: 0 9%;
+    .header-title {
+        padding: 0 0 0 2.5em;
+    }
+    
+    .header-title-left {
+        padding-left: 9%;
+    }
+    
+    .desktop-nav {
+        padding-right: 9%;
+    }
+    
+    .header-icon {
+        margin-left: 158px;   
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    /*
+    header {
+        height: 76px;
+    }
+    
+    .header-title-left {
+        font-size: 36px;
+        padding: 8px 0;
+        padding-left: 9%;
+    }
+    
+    .title-letter-large {
+        font-size: 46px
+    }
+
+    .title-divider {
+        font-size: 56px;
+    }
+
+    .title-text-darker {
+        font-size: 32px;
+    }
+    
+    .title-letter-medium {
+        font-size: 40px
+    }
+    
+    .desktop-nav {
+        padding: 8px 0;
+        padding-right: 9%;
+    }
+    
+    .desktop-nav li a {
+        font-size: 32px;
+    }
+    */
+    
+    .header-title {
+        
+    }
+    
+    .header-title-left {
+
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+    
+    .header-title {
+        padding: 0 0 0 2.75em;
+    }
+    
+}
+
+@media screen and (min-width: 2000px) {
+    
+    .header-title-left {
+
+    }
+    
+}
+
+@media screen and (min-width: 2200px) {
+    
+    .header-title {
+        padding: 0 0 0 3em;
+    }
+    
+    .header-title-left {
+
     }
 }
 
